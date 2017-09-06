@@ -86,6 +86,7 @@ body {
 .container{
     margin-top: 44px;
     padding: 38px;
+    box-shadow: 10px 10px 10px #c4c4c4;
 }
 
 .intro {
