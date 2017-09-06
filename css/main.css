@@ -1,0 +1,106 @@
+.mainfont {
+    /*    font-family: 'Noto Sans', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #234045;
+}
+
+.navbar-color,
+#myNavbar ul li a:focus {
+    background-color: #0094aa;
+/*    background-color: #009fb7;*/
+    opacity: 0.9;
+}
+
+.title {
+    font-size: 4em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+
+/*,.active*/
+
+#myNavbar ul li a:hover {
+    background-color: #009fb7;
+    color: #faebf8;
+}
+
+#myNavbar ul li a,
+.navbar-brand {
+    font-size: 1.1em;
+    font-variant: small-caps;
+    color: white;
+}
+
+.icon {
+    height: 18px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titletext {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.white {
+    color: white;
+}
+
+/*
+#backimg .fill {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+*/
+
+.logosmall {
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+.bodyback {
+        background-color: #ebebeb;
+}
+
+
+/*not responsive*/
+/*
+.container {
+    height: 100%;
+}
+*/
+
+.container{
+    margin-top: 44px;
+    padding: 38px;
+}
+
+.intro {
+/*    background: #f5f5f5;*/
+    background: #f5f5f5;
+}
+
+.about {
+    background: #d5e9f2;
+}
+.speakers{    
+    background: #96becc;
+    color: white;
+}
+.contact {
+    background: #358b9a;
+    color: white;
+}

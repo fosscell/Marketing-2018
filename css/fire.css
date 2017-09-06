@@ -1,0 +1,16 @@
+.fire {
+    width:100%;
+    height:485px;
+    background:url(/path/to/image.png);
+    transform: scale(.7);
+    background: url('../img/sprite-logo.PNG');
+    animation: play 0.5s steps(4) infinite;
+    
+    
+/*    background-size : 1932px 485px;*/
+}
+
+
+@keyframes play {
+    100% { background-position: -1932px; }
+}
