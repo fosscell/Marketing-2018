@@ -1,16 +1,64 @@
-.fire {
-    width:100%;
-    height:485px;
-    background:url(/path/to/image.png);
-    transform: scale(.7);
-    background: url('../img/sprite-logo.PNG');
-    animation: play 0.5s steps(4) infinite;
-    
-    
-/*    background-size : 1932px 485px;*/
+/*992px is where bootstrap resizes the cols*/
+
+@media (min-width: 992px) {
+    .fire {
+        width: 100%;
+        max-width: 483px;
+        height: 485px;
+        transform: scale(.7);
+        background: url('../img/sprite-large.png');
+        animation: play 0.5s steps(4) infinite;
+    }
+}
+
+@media (max-width: 992px) {
+    .fire {
+        width: 100%;
+        max-width: 242px;
+        height: 243px;
+        transform: scale(.7);
+        background: url('../img/sprite-medium.png');
+        animation: play2 0.5s steps(4) infinite;
+    }
+}
+
+.firelogo {
+    width: 48px;
+    /*        max-width: 48px;*/
+    height: 48px;
+    background: url('../img/ssmall.PNG');
+    animation: play3 0.5s steps(4) infinite;
 }
 
 
+/*
+
+ .fire{
+    
+        width:100%;
+        max-width: 242px;
+        height:243px;
+        background:url(/path/to/image.png);
+        transform: scale(.7);
+        background: url('../img/sprite-medium.png');
+        animation: play 0.5s steps(4) infinite;
+    }
+*/
+
 @keyframes play {
-    100% { background-position: -1932px; }
+    100% {
+        background-position: -1932px;
+    }
+}
+
+@keyframes play2 {
+    100% {
+        background-position: -968px;
+    }
+}
+
+@keyframes play3 {
+    100% {
+        background-position: -192px;
+    }
 }

@@ -18,7 +18,7 @@
     <!-- Latest compiled and minified CSS for Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!--Fonts -->
+    <!--Fonts todo: remove old fonts-->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Catamaran|Josefin+Sans|Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
@@ -41,7 +41,11 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                     <i class="icon-menu icons"></i>                       
                             </button>
-                    <a class="navbar-brand" href="#home"><img class="logosmall" src="img/logo-512x512.png"></a>
+                    <!--                    <div class="firelogo navbar-brand"></div>-->
+                    <a class="navbar-brand" href="#home">
+                        <img class="logosmall" src="img/logo-512x512.png">
+
+                    </a>
                     <a class="navbar-brand" href="#home"> FOSSMeet '18 </a>
                     <a href="#home"></a>
                 </div>
@@ -59,7 +63,8 @@
                         <li><a href="https://www.facebook.com/fossmeet" target="_blank"><i class="icon-social-facebook icons"></i></a></li>
 
                         <!--                        <li><a href="#">Why Sponsor Us</a></li>-->
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact </a></li>
                     </ul>
                 </div>
             </div>
@@ -67,17 +72,16 @@
         <div class="container cover" id="backimg">
 
             <div class="row">
-                <div class="col-sm-5" id="home">
-                    <div class="fire"></div>
+                <div class="col-sm-6 center" id="home">
+                    <div class="center fire"></div>
                 </div>
-
-                <div class="col-sm-1" id="home"></div>
                 <div class="col-sm-5">
                     <h2 class="titletext">Welcome to</h2>
                     <h1 class="title">FOSSMeet '18</h1>
-                    <p class="center">Lorem ipsum dolor sit amet</p>
-                </div>
-                <div class="col-sm-1" id="home">
+                    <!--                    Tagline, date-->
+                    <p class="tagline">Lorem ipsum dolor sit amet</p>
+
+                    <div class="center"><a href="#" target="_blank" class="gradbtn">Brochure Link</a> </div>
                 </div>
 
             </div>
@@ -86,10 +90,9 @@
 
     <!--    Intro-->
     <div class="container intro">
-
         <div class="row">
             <div class="col-sm-1"></div>
-            <div class="col-sm-10">
+            <div class="col-sm-10 intro">
                 <div id="about">
                     <h1 class="headingtext">Come be a part of FOSSMeet</h1>
                     <!--                    <h1>Join Us</h1>-->
@@ -100,35 +103,38 @@
 
         <div class="row">
             <div class="col-sm-1"></div>
-            <div class="col-sm-5">
+            <div class="col-sm-5 intro">
                 <h3>Be a Sponsor</h3>
-                <p>FOSS has helped all of us in some manner. What better way to give back to it, than help in building a culture of innovation, freedom, evolution and open standards?
+
+                <p>FOSS has helped all of us in some manner. What better way to give back to it, than help in building a culture of innovation, freedom, evolution and open standards? Reach us at <a href="mailto:sponsorship@fossmeet.in">sponsorship@fossmeet.in</a>
                 </p>
+
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-5 intro">
                 <h3>Be a Speaker</h3>
-                <p>We are inviting proposals for talks and workshops at FOSSMeet 2018. Contact us at <a href="https://fossmeet-nitc.talkfunnel.com/2018/" target="_blank">fossmeet-nitc.talkfunnel</a></p>
+                <p>We are inviting proposals for talks and workshops at FOSSMeet 2018.<br> Present your idea through <a href="https://fossmeet-nitc.talkfunnel.com/2018/" target="_blank">fossmeet-nitc.talkfunnel</a>
+
             </div>
             <div class="col-sm-1"></div>
         </div>
-
     </div>
+
 
     <!--    About-->
     <div class="container about">
         <div class="row headingtext">
             <div class="col-sm-1"></div>
 
-            <div class="col-sm-7 ">
-                <h1>About Us</h1>
-                <p>
-                    FOSSMeet is an annual event on Free and Open source software, conducted at National Institute of Technology, Calicut. Started with a vision to create a culture of innovation, evolution and open standards, the meet intends to support the FOSS community and the dissemination of FOSS ideology through hands-on sessions, discussions and lectures. Nothing better to get you introduced to the world of FOSS.
+            <div class="col-sm-6 ">
+                <h1 >About Us</h1>
+                <p id="about">
+                    FOSSMeet is an annual event on Free and Open source software, conducted at National Institute of Technology, Calicut. Started with a vision to create a culture of innovation, evolution and open standards, the meet intends to support the FOSS community and the dissemination of FOSS ideology through hands-on sessions, discussions and lectures. Nothing better to get you introduced to the world of FOSS.<br><br> Our main aim being contributing to the FOSS community, we focus on the quality and standard of each of the events that is a part of FOSSMeet. Experts, professionals and students come in from all over south India to attend FOSSMeet.
                     <!--                    brochure link here-->
                 </p>
             </div>
-            <div class="col-sm-3 ">
+            <div class="col-sm-4 ">
                 <div id="about">
-                    <img src="http://via.placeholder.com/250x250" class="img-responsive">
+                    <img src="img/teaching.JPG" class="img-responsive aboutpic">
                 </div>
             </div>
             <div class="col-sm-1"></div>
@@ -158,23 +164,34 @@
 
 
     <!--    Contact-->
-    <div class="container contact">
+    <div class="container contact center">
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
                 <div id="contact">
-                    <h1 class="headingtext ">Contact Us</h1>
+                    <h1>Contact Us</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                        Still have questions about FOSSMeet sponsorships?<br> Drop our community team a line at <a class="email" href="mailto:sponsorship@fossmeet.in">sponsorship@fossmeet.in</a>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="organizer">
+                    <h3>Organizers</h3>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-12"><img src="img/logos.png" class="img-responsive logos center"></div>
+                </div>
+            </div>
         </div>
     </div>
 
 
-    
+
 </body>
 
 </html>
