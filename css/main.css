@@ -74,7 +74,7 @@
 
 #myNavbar ul li a:hover {
     background-color: #009fb7;
-/*    background-color: #5fcfe0;*/
+    /*    background-color: #5fcfe0;*/
     color: #ffb59a;
 }
 
@@ -213,14 +213,14 @@ p {
 }
 
 figure {
-	margin: 0;
-	padding: 0;
-	background: #fff;
+    margin: 0;
+    padding: 0;
+    background: #fff;
     overflow: hidden;
 }
 
 .carousel-control {
     background: 0!important;
-    color:  #ffb59a!important;
+    color: #ffb59a!important;
     opacity: 1!important;
 }
