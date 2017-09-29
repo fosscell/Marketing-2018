@@ -6,7 +6,7 @@
         max-width: 483px;
         height: 485px;
         transform: scale(.7);
-        background: url('../img/sprite-large.png');
+        background: url('../img/sprite-large-dark.png');
         animation: play 0.5s steps(4) infinite;
     }
 }
