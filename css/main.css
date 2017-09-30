@@ -15,6 +15,7 @@
 .title {
     font-size: 4em;
     font-variant: small-caps;
+    color: darkslategrey;
 }
 
 .titletext {
@@ -23,6 +24,7 @@
 
 .tagline {
     margin-bottom: 44px;
+    opacity: 0.7;
 }
 
 .gradbtn {
@@ -148,7 +150,7 @@ p {
 }
 
 .speakers {
-    background: #96becc;
+    background: #80b0c1;
     color: white;
 }
 
@@ -161,7 +163,6 @@ p {
     background: #fcfcfc;
 }
 
-.sponserimg {}
 
 .intro {
     background: #f5f5f5;
@@ -199,6 +200,8 @@ p {
     background: #f5f5f5;
     color: white;
 }
+
+
 /*
 
 .hover08 figure img {
@@ -208,6 +211,8 @@ p {
     transition: .3s ease-in-out;
 }
 */
+
+
 /*
 
 .hover08 figure:hover img {
@@ -230,21 +235,63 @@ figure {
 }
 
 .outline {
-  -webkit-filter: drop-shadow(1px 1px 0 black)
-                  drop-shadow(-1px -1px 0 black);
-  filter: drop-shadow(1px 1px 0 black) 
-          drop-shadow(-1px -1px 0 black);
+    -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
     max-height: 200px!important;
-
 }
 
 .imagesponsor img {
-    max-height:80px;
+    max-height: 70px;
+    max-width: 80%;
     margin: 20px;
 }
 
 .sponsors {
     background: white;
+}
+
+.speakerimg {
+    max-width: 150px!important;
+
+}
+
+.polaroids {
+    margin: 0 auto;
+/*    padding: 20px;*/
+    text-align: center;
+}
+
+.polaroid {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+/*    max-width: 230px;*/
+    
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+}
+
+.polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 50px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    -moz-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    height: auto;
+    max-width: 100%;
+}
+
+.polaroid:hover {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+
+.polaroid p {
+    color: #2e2e2e;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
 }
 
 
