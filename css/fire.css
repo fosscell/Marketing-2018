@@ -2,10 +2,10 @@
 
 @media (min-width: 992px) {
     .fire {
-        width: 100%;
+        width: 110%;
         max-width: 483px;
         height: 485px;
-        transform: scale(.7);
+        transform: scale(.6);
         background: url('../img/sprite-large-dark.png');
         animation: play 0.5s steps(4) infinite;
     }
