@@ -239,7 +239,6 @@ figure {
 .outline {
     -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
     filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
-    max-height: 100px!important;
 }
 
 .imagesponsor img {
@@ -305,5 +304,17 @@ figure {
 }
 
 .sponsorimg {
-    max-height: 72px!important;
+    max-height: 60px!important;
+}
+
+.sponsorimgconcur {
+    max-height: 76px!important;
+}
+
+.sponsorimginsta {
+     max-height: 56px!important;
+}
+
+.sponsorimgit {
+     max-height: 100px!important;
 }
