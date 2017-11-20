@@ -7,7 +7,7 @@
         height: 485px;
         transform: scale(.6);
         background: url('../img/sprite-large-dark.png');
-        animation: play 0.5s steps(4) infinite;
+/*        animation: play 0.5s steps(4) infinite;*/
     }
 }
 
@@ -18,7 +18,7 @@
         height: 243px;
         transform: scale(.7);
         background: url('../img/sprite-medium.png');
-        animation: play2 0.5s steps(4) infinite;
+/*        animation: play2 0.5s steps(4) infinite;*/
     }
 }
 
@@ -27,7 +27,7 @@
     /*        max-width: 48px;*/
     height: 48px;
     background: url('../img/ssmall.PNG');
-    animation: play3 0.5s steps(4) infinite;
+/*    animation: play3 0.5s steps(4) infinite;*/
 }
 
 
